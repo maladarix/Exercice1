@@ -28,7 +28,7 @@ html, body{
   height: 100%;
   width: 100%;
   background-image: url(/airplane-flight.webp);
-  background-position: 90%;
+  background-position-x: 90%;
 }
 
 .left{
@@ -46,32 +46,42 @@ html, body{
 
 .center{
   height: 100%;
+  width: 76%;
+  float: left;
+  overflow-wrap: break-word;
 }
 
 .footer{
   width: 100%;
   height: 15%;
-  background-color: aqua;
+  background-color: rgb(114, 114, 114);
+  margin: 0px;
+}
+
+#home{
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  float: left;
 }
 
 
-
 #japon{
-  width: 33.3%;
+  width: 25%;
   height: 100%;
   text-align: center;
   float: left;
 }
 
 #haiti{
-  width: 33.3%;
+  width: 25%;
   height: 100%;
   text-align: center;
   float: left;
 }
 
 #suisse{
-  width: 33.3%;
+  width: 25%;
   height: 100%;
   text-align: center;
   float: right;
@@ -85,4 +95,8 @@ h2{
 h2:hover {
   color: white;
   background-color: black;
+}
+
+p{
+  margin: 2%;
 }
