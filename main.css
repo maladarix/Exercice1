@@ -63,6 +63,8 @@ html, body{
   height: 100%;
   text-align: center;
   float: left;
+  background-color: black;
+  color: white;
 }
 
 

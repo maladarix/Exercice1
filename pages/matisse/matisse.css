@@ -1,0 +1,158 @@
+html, body{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  min-width: 700px;
+}
+
+.entete{
+  width: 100%;
+  height: 10%;
+  min-height: 40px;
+  background-image: url(/pages/matisse/img/valais.png);
+  background-size: 100%;
+}
+
+.menu{
+  width: 100%;
+  height: 30px;
+  background-color: rgb(219, 219, 219);
+}
+
+.sideImages{
+  height: 100%;
+  width: 100%;
+  background-image: url(/pages/matisse/img/valais.png);
+}
+
+.sideImagesRight{
+  height: 100%;
+  width: 100%;
+  background-image: url(/pages/matisse/img/valais.png);
+  background-position-x: 90%;
+}
+
+.left{
+  width: 12%;
+  height: 100%;
+  float: left;
+}
+
+.right{
+  width: 12%;
+  height: 100%;
+  background-position: 90%;
+  float: right;
+}
+
+.center{
+  height: 100%;
+  width: 76%;
+  float: left;
+  overflow-wrap: break-word;
+  overflow: scroll;
+}
+
+.footer{
+  width: 100%;
+  height: 15%;
+  background-color: rgb(114, 114, 114);
+  margin: 0px;
+}
+
+#home{
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  float: left;
+}
+
+
+#japon{
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  float: left;
+}
+
+#haiti{
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  float: left;
+}
+
+#suisse{
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  float: right;
+  background-color: black;
+  color: white;
+}
+
+.menu h2{
+  margin: 0px;
+  height: 100%;
+}
+
+.menu h2:hover {
+  color: white;
+  background-color: black;
+}
+
+p{
+  margin: 2%;
+}
+
+.head{
+  margin: 10px;
+  height: 20%;
+  min-height: 120px;
+  max-height: 120px;
+}
+
+.flag{
+  height: 100%;
+  background-image: url(/pages/matisse/img/switzerlandFlag.png);
+  float: left;
+}
+
+
+.countryName{
+  font-size: 6em;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.center p{
+  margin: 10px;
+}
+
+table{
+  margin: 1%;
+  border: solid 2px;
+  border-color: rgb(119, 119, 119);
+  border-spacing: 0px;
+  width: 98%;
+  text-align: center;
+}
+
+td{
+  margin: 0px;
+  border: solid 1px;
+}
+
+.center h2{
+  margin: 10px;
+}
+
+.center a{
+  font-size: larger;
+  font-weight:bold;
+  margin: 10px;
+}
+
+.other{
+  margin: 10px
+}
