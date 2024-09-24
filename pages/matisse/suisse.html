@@ -131,9 +131,38 @@
         <input type="submit" value="Spécialitées Culinaires">
         <input type="submit" value="Tourisme">
       </div>
+      <br>
+
+      <h2>Proposé un changement:</h2>
+      <div class="edit">
+        <input id="email" type="email" placeholder="Adresse e-mail">
+        <br>
+        <input id="tel" type="tel" placeholder="Numéro de téléphone">
+        <br>
+        <div class="namesInfo">
+          <input id="fName" type="text" placeholder="Prénom">
+          <input id="flastName" type="text" placeholder="Nom">
+        </div>
+
+        <select id="sujet" name="Sujet">
+          <option value="" disabled selected hidden>Sujet</option>
+          <option value="General">General</option>
+          <option value="Population">Population</option>
+          <option value="PIB">PIB</option>
+          <option value="Autre">Autre</option>
+        </select>
+        <br>
+
+        <textarea id="txt" name="txt"></textarea>
+        <br>
+        <input type="submit" id="btnSend" value="send" formaction="">
+        <input type="reset">
+        
+      </div>
     </div>
     <div style="clear: both"></div>
-
+    
+    
     <footer class="footer">
       <div></div>
     </footer>
