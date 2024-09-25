@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Les destination parfaites</title>
-    <link rel="stylesheet" href="main.css">
+    <title>Voyage sans limite</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
   </head>
 
   <body>
     <div class="entete"></div>
 
     <div class="menu">
-      <div id="home" onclick="location.href='main.html'">
+      <div id="home" onclick="location.href='../../main.html'">
         <h2>Home</h2>
       </div>
 
@@ -27,21 +28,131 @@
     </div>
 
     <div class="left">
-      <img class="sideImages">
+      <img class="sideImages"/>
     </div>
 
     <div class="right">
-      <img class="sideImagesRight">
+      <img class="sideImagesRight"/>
     </div>
 
     <div class="center">
-      <p>TEST</p>
+      <div class="head">
+        <img class="flag" src="/logo.webp" alt="Logo"/>
+        <h1 class="countryName">Voyage sans limite</h1>
+      </div>
+
+      <div>
+        <p>
+          Chez Voyager sans Limite, nous croyons que chaque voyage est une occasion unique d'explorer, de découvrir et de se connecter au
+          monde. Que vous rêviez de plages paradisiaques, de montagnes majestueuses ou de villes fascinantes, nous sommes là pour vous
+          accompagner à chaque étape.
+        </p>
+      </div>
+      <br />
+
+      <h2 class="headingPlats">Pourquoi choisir Voyager sans Limite ?</h2>
+      <div>
+        <p>
+          Des destinations pour tous les goûts : Que vous soyez amateur de grandes métropoles, de paysages naturels époustouflants ou de
+          lieux historiques, nous offrons une gamme complète de destinations adaptées à chaque profil de voyageur.
+        </p>
+        <p>
+          Un accompagnement personnalisé : Votre satisfaction est notre priorité. Notre équipe est à l'écoute de vos besoins pour concevoir
+          un itinéraire sur mesure qui vous ressemble. Que ce soit un voyage en solitaire, en couple, en famille ou entre amis, nous avons
+          la solution.
+        </p>
+        <p>
+          Des offres exclusives et abordables : Grâce à nos relations privilégiées avec des prestataires locaux et des partenaires de renom,
+          nous vous proposons des offres imbattables sur les vols, hébergements, et activités.
+        </p>
+        <p>
+          La sécurité avant tout : Nous ne laissons rien au hasard. Nos destinations sont rigoureusement sélectionnées selon les critères de
+          sécurité les plus stricts. Nous offrons aussi des options d'assurances complètes pour assurer votre tranquillité.
+        </p>
+        <p>
+          Des expériences authentiques et immersives : Nous proposons des voyages qui vous plongent au cœur des cultures locales. Participez
+          à des ateliers traditionnels, visitez des marchés locaux, et rencontrez des artisans pour une immersion totale dans la
+          destination.
+        </p>
+        <p>
+          Des séjours écoresponsables : Conscients de l'impact environnemental des voyages, nous favorisons des partenaires et des circuits
+          respectueux de la nature. Hébergements éco-responsables, circuits sans empreinte carbone et activités durables font partie de nos
+          offres.
+        </p>
+        <p>
+          Un service client disponible 24/7 : Où que vous soyez dans le monde, vous n'êtes jamais seul. Notre service d'assistance est
+          disponible à tout moment pour répondre à vos questions et vous aider en cas d'imprévus.
+        </p>
+        <p>
+          Une expertise reconnue : Forts de plusieurs années d’expérience dans l’industrie du voyage, nous vous garantissons un service
+          professionnel et des recommandations éclairées pour choisir le meilleur itinéraire.
+        </p>
+        <p>
+          Des activités pour tous : Que vous soyez un amateur de sensations fortes, un adepte de la relaxation ou un passionné de découverte
+          culturelle, nous proposons un large éventail d’activités : safaris, croisières, randonnées, plongées, visites guidées, et bien
+          plus encore.
+        </p>
+        <p>
+          Des partenariats locaux pour soutenir les communautés : Nous collaborons directement avec des entreprises locales dans chaque
+          destination afin de promouvoir un tourisme équitable et de soutenir les économies locales.
+        </p>
+        <p>
+          Flexibilité et simplicité de réservation : Avec des outils de réservation en ligne intuitifs, nous rendons la planification de vos
+          voyages facile et rapide. De plus, nos politiques flexibles vous permettent de modifier ou d'annuler votre voyage en toute
+          sérénité.
+        </p>
+      </div>
+      <br />
+      <h2 class="headingPlats">Nos engagements</h2>
+      <div>
+        <p>
+          Écoresponsabilité : Nous encourageons les voyages respectueux de l'environnement et collaborons avec des partenaires locaux
+          engagés dans la protection de la planète.
+        </p>
+        <p>
+          Culture locale : Nous vous offrons des expériences authentiques en immersion totale, afin que vous puissiez vivre pleinement la
+          culture des lieux que vous visitez.
+        </p>
+      </div>
+      <br />
+
+      <h2>Nous contacter</h2>
+      <div class="edit">
+        <form action="https://www.w3schools.com/action_page.php" method="post">
+          <input id="email" type="email" name="mail" placeholder="Adresse e-mail" />
+          <br />
+          <input id="tel" type="tel" name="tel" placeholder="Numéro de téléphone" />
+          <br />
+          <div class="namesInfo">
+            <input id="fName" type="text" name="firstName" placeholder="Prénom" />
+            <input id="flastName" type="text" name="lastName" placeholder="Nom" />
+          </div>
+
+          <select id="sujet" name="sujet">
+            <option value="" disabled selected hidden>Sujet</option>
+            <option value="General">General</option>
+            <option value="Reservation">Réservation</option>
+            <option value="Autre">Autre</option>
+          </select>
+
+          <div>
+            Moyen de communication
+            <input type="radio" id="rEmail" name="favComMode" value="e-mail" /><label for="">E-Mail</label>
+            <input type="radio" id="rTell" name="favComMode" value="cellphone" /><label for="">Téléphone</label>
+          </div>
+
+          <textarea id="txt" name="txt"></textarea>
+          <br />
+          <input type="submit" id="btnSend" value="Envoyer" />
+          <input type="reset" />
+        </form>
+      </div>
     </div>
-    <div style="clear: both;"></div>
+    <div style="clear: both"></div>
 
     <footer class="footer">
-      <div >
-        
+      <div class="copyright">
+        <p>COPYRIGHT: Matisse Pageau / Antoine Tremblay / Nery lodimus</p>
       </div>
     </footer>
   </body>

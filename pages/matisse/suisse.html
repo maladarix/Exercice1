@@ -3,6 +3,7 @@
   <head>
     <title>La Suisse</title>
     <link rel="stylesheet" href="matisse.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   </head>
 
   <body>
@@ -36,7 +37,7 @@
 
     <div class="center">
       <div class="head">
-        <img class="flag" src="/pages/matisse/img/switzerlandFlag.png" />
+        <img class="flag" src="/pages/matisse/img/switzerlandFlag.png" alt="Drapeau Suisse"/>
         <h1 class="countryName">Suisse</h1>
       </div>
 
@@ -78,6 +79,7 @@
       </div>
       <br />
 
+      
       <div>
         <h2>Population et PIB de la Suisse</h2>
         <table>
@@ -94,7 +96,7 @@
             <td>2022</td>
             <td>2023</td>
           </tr>
-
+          
           <tr>
             <td>Population</td>
             <td>8 188 649</td>
@@ -108,7 +110,7 @@
             <td>8 775 760</td>
             <td>8 849 852</td>
           </tr>
-
+          
           <tr>
             <td>PIB</td>
             <td>$726.54 B</td>
@@ -125,46 +127,57 @@
         </table>
         <br />
       </div>
-
-      <h2>En savoir plus:</h2>
+      
+      <h2>Source</h2>
+      <a href="https://fr.wikipedia.org/wiki/Suisse"><i class="material-icons">search</i>Wikipedia</a>
+      
       <div class="other">
-        <input type="submit" value="Spécialitées Culinaires">
-        <input type="submit" value="Tourisme">
+        <h2>En savoir plus</h2>
+        <a href="/pages/matisse/culinaire.html">Spécialitées Culinaires</a>
+        <a href="/pages/matisse/tourisme.html">Tourisme</a>
       </div>
       <br>
-
-      <h2>Proposé un changement:</h2>
+      
+      <h2>Proposé un changement</h2>
       <div class="edit">
-        <input id="email" type="email" placeholder="Adresse e-mail">
-        <br>
-        <input id="tel" type="tel" placeholder="Numéro de téléphone">
-        <br>
-        <div class="namesInfo">
-          <input id="fName" type="text" placeholder="Prénom">
-          <input id="flastName" type="text" placeholder="Nom">
-        </div>
+        <form action="https://www.w3schools.com/action_page.php" method="post">
+          <input id="email" type="email" name="mail" placeholder="Adresse e-mail">
+          <br>
+          <input id="tel" type="tel" name="tel" placeholder="Numéro de téléphone">
+          <br>
+          <div class="namesInfo">
+            <input id="fName" type="text" name="firstName" placeholder="Prénom">
+            <input id="flastName" type="text" name="lastName" placeholder="Nom">
+          </div>
+          
+          <select id="sujet" name="sujet">
+            <option value="" disabled selected hidden>Sujet</option>
+            <option value="General">General</option>
+            <option value="Population">Population</option>
+            <option value="PIB">PIB</option>
+            <option value="Autre">Autre</option>
+          </select>
 
-        <select id="sujet" name="Sujet">
-          <option value="" disabled selected hidden>Sujet</option>
-          <option value="General">General</option>
-          <option value="Population">Population</option>
-          <option value="PIB">PIB</option>
-          <option value="Autre">Autre</option>
-        </select>
-        <br>
+          <div>
+            Moyen de communication
+            <input type="radio" id="rEmail" name="favComMode" value="e-mail"><label for="">E-Mail</label>
+            <input type="radio" id="rTell" name="favComMode" value="cellphone"><label for="">Téléphone</label>
+          </div>
 
-        <textarea id="txt" name="txt"></textarea>
-        <br>
-        <input type="submit" id="btnSend" value="send" formaction="">
-        <input type="reset">
-        
+          <textarea id="txt" name="txt" placeholder="Commentaire"></textarea>
+          <br>
+          <input type="submit" id="btnSend" value="Envoyer">
+          <input type="reset">
+        </form>
       </div>
     </div>
     <div style="clear: both"></div>
     
     
     <footer class="footer">
-      <div></div>
+      <div class="copyright">
+        <p>COPYRIGHT: Matisse Pageau / Antoine Tremblay / Nery lodimus</p>
+      </div>
     </footer>
   </body>
 </html>

@@ -54,7 +54,7 @@ html, body{
 
 .footer{
   width: 100%;
-  height: 15%;
+  height: 5%;
   background-color: rgb(114, 114, 114);
   margin: 0px;
 }
@@ -153,7 +153,7 @@ td{
 }
 
 .other{
-  margin: 10px
+  margin: 0px
 }
 
 .edit{
@@ -177,4 +177,26 @@ input{
   resize: none;
   height: 150px;
   width: 300px;
+}
+
+.plats{
+  margin: 10px;
+}
+
+.plats p{
+  margin: 0px;
+}
+
+.headingPlats{
+  border-bottom: dotted 1px black;
+}
+
+.material-icons{
+  height: 10px;
+}
+
+.copyright p{
+  margin-top: 0px;
+  margin-right: 5px;
+  float: right;
 }
