@@ -1,7 +1,8 @@
 html, body{
   width: 100%;
-  height: 100%;
+  height: 1300px;
   margin: 0px;
+  min-width: 700px;
 }
 
 .entete{
@@ -53,7 +54,7 @@ html, body{
 
 .footer{
   width: 100%;
-  height: 15%;
+  height: 5%;
   background-color: rgb(114, 114, 114);
   margin: 0px;
 }
@@ -63,6 +64,8 @@ html, body{
   height: 100%;
   text-align: center;
   float: left;
+  background-color: black;
+  color: white;
 }
 
 
@@ -87,16 +90,113 @@ html, body{
   float: right;
 }
 
-h2{
+.menu h2{
   margin: 0px;
   height: 100%;
 }
 
-h2:hover {
+.menu h2:hover {
   color: white;
   background-color: black;
 }
 
 p{
   margin: 2%;
+}
+
+.head{
+  margin: 10px;
+  height: 20%;
+  min-height: 120px;
+  max-height: 120px;
+}
+
+.flag{
+  height: 100%;
+  background-image: url(/pages/matisse/img/switzerlandFlag.png);
+  float: left;
+}
+
+
+.countryName{
+  font-size: 6em;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.center p{
+  margin: 10px;
+}
+
+table{
+  margin: 1%;
+  border: solid 2px;
+  border-color: rgb(119, 119, 119);
+  border-spacing: 0px;
+  width: 98%;
+  text-align: center;
+}
+
+td{
+  margin: 0px;
+  border: solid 1px;
+}
+
+.center h2{
+  margin: 10px;
+}
+
+.center a{
+  font-size: larger;
+  font-weight:bold;
+  margin: 10px;
+}
+
+.other{
+  margin: 0px
+}
+
+.edit{
+  margin: 10px
+}
+
+input{
+  margin-top: 5px;
+}
+#email{
+  width: 25%;
+}
+
+#sujet{
+  margin-top: 5px;
+  width: 15%;
+}
+
+#txt{
+  margin-top: 5px;
+  resize: none;
+  height: 150px;
+  width: 300px;
+}
+
+.plats{
+  margin: 10px;
+}
+
+.plats p{
+  margin: 0px;
+}
+
+.headingPlats{
+  border-bottom: dotted 1px black;
+}
+
+.material-icons{
+  height: 10px;
+}
+
+.copyright p{
+  margin-top: 0px;
+  margin-right: 5px;
+  float: right;
 }

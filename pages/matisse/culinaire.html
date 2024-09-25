@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cuisine Suisse</title>
+    <link rel="stylesheet" href="matisse.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+
+  <body>
+    <div class="entete"></div>
+
+    <div class="menu">
+      <div id="home" onclick="location.href='../../main.html'">
+        <h2>Home</h2>
+      </div>
+
+      <div id="japon" onclick="location.href='/pages/antoine/page1.html'">
+        <h2>Japon</h2>
+      </div>
+
+      <div id="haiti" onclick="location.href='/pages/lodimus/page1.html'">
+        <h2>Haiti</h2>
+      </div>
+
+      <div id="suisse" onclick="location.href='suisse.html'">
+        <h2>Suisse</h2>
+      </div>
+    </div>
+
+    <div class="left">
+      <img class="sideImages" />
+    </div>
+
+    <div class="right">
+      <img class="sideImagesRight" />
+    </div>
+
+    <div class="center">
+      <div class="head">
+        <img class="flag" src="/pages/matisse/img/switzerlandFlag.png" alt="Drapeau Suisse"/>
+        <h1 class="countryName">Suisse</h1>
+      </div>
+
+      <div>
+        <p>
+          Les traditions culinaires suisses proposent des plats roboratifs et caloriques, justifiés en partie par la nature montagneuse du
+          pays, avec ses hivers longs et rudess 1. Par ses origines paysannes, la cuisine suisse utilise des ingrédients simples provenant
+          de la région et disponibles selon les saisons (champignons, poissons des lacs et rivières, volailles et gibiers, laitages, beurre
+          et crème, fruits et légumess 1). Beaucoup de plats doivent mijoter longtemps, telle la minestrone tessinoise1. Les recettes se
+          sont cependant adaptées au mode de vie actuel.
+        </p>
+
+        <p>Chaque région et canton offre ses spécialités selon les produits à disposition, la géographie et les influences culturelles.</p>
+      </div>
+      <br />
+
+      <h2>Plats nationaux</h2>
+      <div class="plats">
+        <div>
+          <h3 class="headingPlats">Fondue au fromage</h3>
+        </div>
+        <p>
+          La fondue au fromage est un plat de fromage à pâte dure, tel que du gruyère, qui est mis à fondre avec du vin blanc et qui est
+          consommé chaud avec du pain. Elle se présente dans un caquelon dans lequel chaque convive trempe son morceau de pain à l’aide
+          d’une fourchette particulière. À la base du caquelon se trouve la source de chaleur (réchaud ou bougies). La fondue au fromage,
+          décrite pour la première fois en 1699, dans un manuscrit zurichois édité par Albert Hauser et intitulé Pour cuire le fromage avec
+          du vin, ressemble à la recette d'aujourd'hui. La recette actuelle est pour la première fois décrite dans un livre de cuisine de
+          l'École ménagère de Zurich en 1885.
+        </p>
+        <div>
+          <h3 class="headingPlats">Raclette</h3>
+        </div>
+        <p>
+          La raclette est un plat valaisan typique obtenu en raclant une demi-meule de fromage fondu à sa surface par la proximité d'une
+          source de chaleur, celle-ci étant à l'origine et traditionnellement un feu de bois (on peut aussi employer un four électrique). La
+          raclette est accompagnée de pommes de terre en robe des champs, de cornichons, de petits oignons et du Fendant comme boissons.
+          Les premières mentions de « fromage rôti », un plat se consommant dans les régions montagneuses de Suisse, remontent au xiiie
+          siècle. C'est à partir de 1909, lors de l'Exposition Cantonale de Sion, que le fromage rôti prend le nom de raclette, mais ce mot
+          est déjà employé en 1875
+        </p>
+        <div>
+          <h3 class="headingPlats">Rösti</h3>
+        </div>
+        <p>
+          Les röstis ou rœsti (nom masculin pluriel) sont des galettes de pommes de terre mélangées avec du fromage, des oignons et des
+          pièces de lard pour la variante typiquement bernoise. Ce plat, originaire de Zurich, est fait avec des pommes de terre crues dans
+          sa version zurichoise. Il s'est répandu en direction de Berne où il est fait avec des pommes de terre cuites. C'est là qu'il prit
+          le nom de Rösti. Il existe de nombreuses variantes en Suisse et hors des frontières. Cette spécialité culinaire donne son nom au
+          « röstigraben » qui désigne les différences culturelles entre Suisses romands et alémaniques.
+        </p>
+      </div>
+      <br/>
+
+      <h2>Source</h2>
+      <a href="https://fr.wikipedia.org/wiki/Cuisine_suisse"> <i class="material-icons">search</i>Wikipedia</a>
+
+      <h2>En savoir plus</h2>
+      <div class="other">
+        <a href="/pages/matisse/suisse.html">Page principale</a>
+        <a href="/pages/matisse/tourisme.html">Tourisme</a>
+      </div>
+      <br/>
+
+      <h2>Proposé un changement</h2>
+      <div class="edit">
+        <form action="https://www.w3schools.com/action_page.php" method="post">
+          <input id="email" type="email" name="mail" placeholder="Adresse e-mail" />
+          <br />
+          <input id="tel" type="tel" name="tel" placeholder="Numéro de téléphone" />
+          <br />
+          <div class="namesInfo">
+            <input id="fName" type="text" name="firstName" placeholder="Prénom" />
+            <input id="flastName" type="text" name="lastName" placeholder="Nom" />
+          </div>
+
+          <select id="sujet" name="sujet">
+            <option value="" disabled selected hidden>Sujet</option>
+            <option value="General">General</option>
+            <option value="Population">Population</option>
+            <option value="PIB">PIB</option>
+            <option value="Autre">Autre</option>
+          </select>
+
+          <div>
+            Moyen de communication
+            <input type="radio" id="rEmail" name="favComMode" value="e-mail" /><label for="">E-Mail</label>
+            <input type="radio" id="rTell" name="favComMode" value="cellphone" /><label for="">Téléphone</label>
+          </div>
+
+          <textarea id="txt" name="txt" placeholder="Commentaire"></textarea>
+          <br />
+          <input type="submit" id="btnSend" value="Envoyer" />
+          <input type="reset" />
+        </form>
+      </div>
+    </div>
+    <div style="clear: both"></div>
+
+    <footer class="footer">
+      <div class="copyright">
+        <p>COPYRIGHT: Matisse Pageau / Antoine Tremblay / Nery lodimus</p>
+      </div>
+    </footer>
+  </body>
+</html>

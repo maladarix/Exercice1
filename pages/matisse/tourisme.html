@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tourisme Suisse</title>
+    <link rel="stylesheet" href="matisse.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+
+  <body>
+    <div class="entete"></div>
+
+    <div class="menu">
+      <div id="home" onclick="location.href='../../main.html'">
+        <h2>Home</h2>
+      </div>
+
+      <div id="japon" onclick="location.href='/pages/antoine/page1.html'">
+        <h2>Japon</h2>
+      </div>
+
+      <div id="haiti" onclick="location.href='/pages/lodimus/page1.html'">
+        <h2>Haiti</h2>
+      </div>
+
+      <div id="suisse" onclick="location.href='suisse.html'">
+        <h2>Suisse</h2>
+      </div>
+    </div>
+
+    <div class="left">
+      <img class="sideImages" />
+    </div>
+
+    <div class="right">
+      <img class="sideImagesRight" />
+    </div>
+
+    <div class="center">
+      <div class="head">
+        <img class="flag" src="/pages/matisse/img/switzerlandFlag.png" alt="Drapeau Suisse"/>
+        <h1 class="countryName">Suisse</h1>
+      </div>
+
+      <div>
+        <p>
+          Le tourisme en Suisse représente 2,9 % du PIB du pays Le nombre d’employés du secteur est de 144 800 en équivalents plein-temps.
+          La Suisse occupe la 29ème place dans le classement des destinations touristiques mondiales, en termes de recettes, elle est 16ème.
+          Le poids du pays dans le tourisme européen en 2010, en pourcentage de visiteurs était de 3,4 %, en 1970, il était de 9,2%. Il y a
+          eu plus de 35,5 millions de nuitées en 2016.
+        </p>
+
+        <p>
+          En matière de tourisme, la Suisse est découpée en 13 régions touristiques dont certaines suivent les découpes cantonales alors que
+          d'autres regroupent plusieurs cantons ou, au contraire, ne couvrent qu'une partie précise d'un canton.
+        </p>
+      </div>
+      <br />
+
+      <h2 class="headingPlats">Histoire du tourisme en Suisse</h2>
+      <div>
+        <p>
+          Jusqu'au xviiie siècle, la Suisse n'est pas une destination, mais plus un passage obligé du fait de sa situation au centre de
+          l'Europe. Les principales exceptions sont alors les villes de Bâle et Genève, qui sont reconnues respectivement pour son
+          université et pour son rayonnement religieux ainsi que les sources d'eau, utiles pour les cures balnéaires.
+        </p>
+        <p>
+          Le tourisme dans le pays débute avec les travaux des écrivains et des peintres naturalistes de la fin du xviiie et du début du
+          xixe siècle qui suscitent l'intérêt des voyageurs romantiques par leurs descriptions de paysages campagnards et montagnards. Les
+          régions principalement mises en valeur sont l'Oberland bernois, avec Interlaken, Lauterbrunnen ou Grindelwald et le Valais, en
+          particulier avec Zermatt dès 1850.
+        </p>
+        <p>
+          Les premiers voyages organisés sont lancés par l'agence anglaise Thomas Cook avant que l'industrie touristique locale ne commence
+          à se développer vers 1850, tant dans l'hôtellerie que dans les moyens de transport. Cependant, les tarifs élevés réservent le
+          tourisme aux classes les plus aisées seulement, jusqu'à la crise économique des années 1870 - 1890 qui force les professionnels de
+          la branche à offrir des prix plus avantageux et des séjours plus longs, en particulier en développant le tourisme hivernal à la
+          fois dans des régions telles que le Tessin ou la région de Montreux, ainsi qu'en lançant les sports d'hiver, jusqu'alors
+          inexistants, dans les stations telles que Saint-Moritz ou encore en créant des établissements de cure en montagne à Davos, à
+          Montana ou à Leysin pour y soigner la tuberculose[pas clair]. Les touristes sont alors majoritairement anglais, mais également
+          français ou américains.
+        </p>
+        <p>
+          Au début du xxe siècle, la Suisse dépense environ 3 % de son budget annuel pour l'hôtellerie, et les recettes de ce secteur
+          s'élèvent jusqu'à 320 millions de francs par année, ce qui constitue une valeur record jusqu'en 1960. Le développement, après la
+          Première Guerre mondiale, des congés payés provoque une augmentation du tourisme des classes moyennes et basses qui devient
+          largement majoritaire au début des années 19504.
+        </p>
+      </div>
+      <br>
+
+      <h2>Source</h2>
+      <a href="https://fr.wikipedia.org/wiki/Tourisme_en_Suisse"> <i class="material-icons">search</i>Wikipedia</a>
+
+      <h2>En savoir plus</h2>
+      <div class="other">
+        <a href="/pages/matisse/suisse.html">Page principale</a>
+        <a href="/pages/matisse/culinaire.html">Spécialitées Culinaires</a>
+      </div>
+      <br />
+
+      <h2>Proposé un changement</h2>
+      <div class="edit">
+        <form action="https://www.w3schools.com/action_page.php" method="post">
+          <input id="email" type="email" name="mail" placeholder="Adresse e-mail" />
+          <br />
+          <input id="tel" type="tel" name="tel" placeholder="Numéro de téléphone" />
+          <br />
+          <div class="namesInfo">
+            <input id="fName" type="text" name="firstName" placeholder="Prénom" />
+            <input id="flastName" type="text" name="lastName" placeholder="Nom" />
+          </div>
+
+          <select id="sujet" name="sujet">
+            <option value="" disabled selected hidden>Sujet</option>
+            <option value="General">General</option>
+            <option value="Population">Population</option>
+            <option value="PIB">PIB</option>
+            <option value="Autre">Autre</option>
+          </select>
+
+          <div>
+            Moyen de communication
+            <input type="radio" id="rEmail" name="favComMode" value="e-mail" /><label for="">E-Mail</label>
+            <input type="radio" id="rTell" name="favComMode" value="cellphone" /><label for="">Téléphone</label>
+          </div>
+
+          <textarea id="txt" name="txt" placeholder="Commentaire"></textarea>
+          <br />
+          <input type="submit" id="btnSend" value="Envoyer" />
+          <input type="reset" />
+        </form>
+      </div>
+    </div>
+    <div style="clear: both"></div>
+
+    <footer class="footer">
+      <div class="copyright">
+        <p>COPYRIGHT: Matisse Pageau / Antoine Tremblay / Nery lodimus</p>
+      </div>
+    </footer>
+  </body>
+</html>
