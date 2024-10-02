@@ -62,26 +62,41 @@ body {
 .center h1{
     font-size: 70px;
 }
-.center table{
-    table-layout: fixed;
-    width: 100%; 
-    border: solid black;
+
+.center h2{
+    margin-left: 10px;
 }
 
 .center table{
+    table-layout: fixed;
+    width: 90%; 
     border: solid black 1px;
     border-spacing: 0px;
+    margin: 5px 5% 5px 5%;
 }
 
 .center td{
     border: solid black 1px;
 }
 
+#learn_japanese{
+  margin: 10px;
+}
+
+.h2_contactez{
+  margin: 10px;
+}
+
+#formulaire {
+  margin: 10px;
+}
+
 .footer {
   width: 100%;
-  height: 15%;
+  height: 5%;
   background-color: rgb(114, 114, 114);
   margin: 0px;
+  position: relative;
 }
 
 #home {
@@ -126,4 +141,14 @@ body {
 
 p {
   margin: 2%;
+}
+
+#next{
+  float: right;
+}
+
+#copyright p{
+  margin-top: 0px;
+  margin-right: 5px;
+  float: right;
 }
