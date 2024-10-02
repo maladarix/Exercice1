@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pages principale japon</title>
+    <link rel="stylesheet" href="antoine.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+
+  <body>
+    <div class="entete"></div>
+
+    <div class="menu">
+      <div id="home" onclick="location.href='main.html'">
+        <h2>Home</h2>
+      </div>
+
+      <div id="japon" onclick="location.href='/pages/antoine/page1.html'">
+        <h2>Japon</h2>
+      </div>
+
+      <div id="haiti" onclick="location.href='/pages/lodimus/page1.html'">
+        <h2>Haiti</h2>
+      </div>
+
+      <div id="suisse" onclick="location.href='/pages/matisse/page1.html'">
+        <h2>Suisse</h2>
+      </div>
+    </div>
+
+    <div class="left">
+      <img class="sideImages" />
+    </div>
+
+    <div class="right">
+      <img class="sideImagesRight" />
+    </div>
+
+    <div class="center">
+      <img src="japan_flag2.jpg" alt="Japan flag" />
+      <h1>Japon</h1>
+
+      <div style="clear: both"></div>
+
+      <p>
+        Le Japon (en japonais : 日本, Nihon, /ɲihoꜜɴ/ Écouter ou Nippon,
+        /ɲippoꜜɴ/ Écouter) est un pays insulaire de l'Asie de l'Est, situé entre
+        la mer du Japon et l'océan Pacifique, à l'est de la Chine, de la Corée
+        du Sud, de la Corée du Nord et de la Russie, et au nord de Taïwan.
+        Étymologiquement, les kanjis (caractères chinois) qui constituent le nom
+        du Japon signifient « pays (国, kuni) d'origine (本, hon) du Soleil (日,
+        ni) » ; c'est ainsi que le Japon est désigné comme le « pays du soleil
+        levant ». Le Japon forme, depuis 1945, un archipel dont le nombre d'îles
+        varie, suivant les estimations, de 6 852 à 14 125 îles (de plus de 100
+        m2), dont les quatre plus grandes sont Hokkaidō, Honshū, Shikoku et
+        Kyūshū, représentant à elles seules 95 % de la superficie terrestre du
+        pays. L'archipel s'étend sur plus de trois mille kilomètres. La plupart
+        des îles sont montagneuses, parfois volcaniques. Ainsi, le plus haut
+        sommet du Japon, le mont Fuji (3 776 m), est un volcan dont la dernière
+        éruption a eu lieu en 1707.
+      </p>
+
+      <br />
+
+      <table>
+        <tr>
+          <td>-------</td>
+          <td>1990</td>
+          <td>1995</td>
+          <td>2000</td>
+          <td>2005</td>
+          <td>2010</td>
+          <td>2015</td>
+          <td>2020</td>
+          <td>2022</td>
+          <td>2023</td>
+          <td>2024</td>
+        </tr>
+        <tr>
+          <td>Population</td>
+          <td>123,399,765</td>
+          <td>125,672,665</td>
+          <td>127,027,789</td>
+          <td>127,913,330</td>
+          <td>128,185,275</td>
+          <td>127,275,872</td>
+          <td>126,304,543</td>
+          <td>124,997,578</td>
+          <td>124,370,947</td>
+          <td>123,753,041</td>
+        </tr>
+        <tr>
+          <td>PIB</td>
+          <td>$3,185.90B</td>
+          <td>$5,545.56B</td>
+          <td>$4,968.36B</td>
+          <td>$4,831.47B</td>
+          <td>$5,759.07B</td>
+          <td>$4,444.93B</td>
+          <td>$5,055.59B</td>
+          <td>$4,256.41B</td>
+          <td>N/A</td>
+          <td>N/A</td>
+        </tr>
+      </table>
+
+      <div id="learn_japanese">
+        <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0"><i class="material-icons">translate</i> Vous voulez apprendre le japonais ?</a>
+      </div>
+      
+      <div id="formulaire">
+        <h2 id="h2_contactez">Contactez-nous</h2>
+        <form action="https://www.w3schools.com/action_page.php" method="post">
+          <input type="text" name="Prenom" placeholder="Prenom" />
+          <input type="text" name="Nom" placeholder="Nom" />
+          <br />
+          <label for="MaleR">Homme</label>
+          <input type="radio" name="Homme" id="MaleR" />
+          <label for="FemaleR">Femme</label>
+          <input type="radio" name="Femme" id="FemaleR" />
+          <br />
+          <input type="email" name="Email" placeholder="Email" />
+          <input type="tel" name="Tel" placeholder="Telephone" />
+          <br />
+          <textarea
+            id="commentaire"
+            name="commentaire"
+            rows="5"
+            cols="46"
+            placeholder="Commentaire"
+          ></textarea>
+          <br />
+          <label for="MajeurCB">Etes vous majeur ?</label>
+          <input type="checkbox" name="Majeur" id="MajeurCB" />
+          <br>
+          <input type="submit" id="btnSend" value="Envoyer">
+          <input type="reset">
+        </form>
+
+        
+      </div>
+    </div>
+
+    <div style="clear: both"></div>
+
+    <footer class="footer">
+      <div id="next">
+        <button onclick="document.location='japon2.html'">Next page</button>
+      </div>
+      <div style="clear: both"></div>
+      <div id="copyright">
+        <p>COPYRIGHT: Matisse Pageau / Antoine Tremblay / Nery lodimus</p>
+      </div>
+    </footer>
+  </body>
+</html>
